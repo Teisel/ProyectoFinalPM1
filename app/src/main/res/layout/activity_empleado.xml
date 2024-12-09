@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar Empleado"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/editTextCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/editTextPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/editTextSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salario"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/editTextInicioTurno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Inicio de Turno (HH:mm)"
+            android:inputType="time"/>
+
+        <EditText
+            android:id="@+id/editTextFinTurno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fin de Turno (HH:mm)"
+            android:inputType="time"/>
+
+        <EditText
+            android:id="@+id/editTextFechaContratacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Contratación (YYYY-MM-DD)"
+            android:inputType="date"/>
+
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo de Empleado"/>
+
+        <Button
+            android:id="@+id/buttonAgregarEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Empleado"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Proyecto FInal PM1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="username_hint">User</string>
+    <string name="password_hint">Password\n</string>
+    <string name="login">Login</string>
+    <string name="clean_penguin">Clean Penguin</string>
+    <string name="agregar_encargo">agregar encargo</string>
+    <string name="proceso_de_tintoreria">Proceso de tintoreria</string>
+    <string name="registro_de_mantenimiento">Registro de mantenimiento</string>
+    <string name="inventario">Inventario</string>
+    <string name="usuario">Usuario</string>
+    <string name="fecha_recibido">Fecha recibido</string>
+    <string name="fecha_entrega">Fecha entrega</string>
+    <string name="idnota">IdNota</string>
+    <string name="nombre">Nombre:</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="minus">-</string>
+    <string name="defaultNumber">0</string>
+    <string name="plus">+</string>
+    <string name="cancelar">cancelar</string>
+    <string name="aceptar">aceptar</string>
+    <string name="total">Total: </string>
+    <string name="tintoreria">Tintorería</string>
+    <string name="lavanderia">Lavandería</string>
+    <string name="mantenimiento">Mantenimiento</string>
+    <string name="empleados">Empleados</string>
+    <string name="agregar_empleado">Agregar empleado</string>
+</resources>
